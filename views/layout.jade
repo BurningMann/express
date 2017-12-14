@@ -1,7 +1,17 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		div.menu#my_menu
+			ul
+				li
+					a(href='/') Главная
+				li
+					a(href='news') Новости
+				li
+					a(href='about') О компании
+				li
+					a(href='services') Услуги
+		block content
