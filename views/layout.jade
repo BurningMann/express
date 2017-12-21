@@ -15,3 +15,7 @@ html
 				li
 					a(href='services') Услуги
 		block content
+	if userid
+	a(href='/logout') Выход
+	elseif
+	a(href='/reg') Регистрация !{userid}

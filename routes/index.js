@@ -17,7 +17,7 @@ router.get('/:id?', function(req, res, next) {
 			 body:'Извините, страница не найдена'
 			 }
 			} 
-	console.log(index);
+	
   res.render('index', { ttext: ttext,});
 });
 router.post('/reg', function(req,res,next){
@@ -61,32 +61,3 @@ router.get('/add/:url/:name/:body?', function(req, res, next) {
 });
 
 module.exports = router;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

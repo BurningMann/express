@@ -15,5 +15,6 @@
     "serve-favicon": "~2.4.5",
 	"mongoose": "*",
 	"nconf": "*"
+	"crypto": "*"
   }
 }
